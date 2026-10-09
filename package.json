@@ -1,8 +1,15 @@
 {
-  "name": "stream-relay",
+  "name": "screenstream-relay-server",
   "version": "1.0.0",
+  "description": "Ultra-lightweight global live video streaming relay server for Android Screen Broadcast",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.18.2"
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["streaming", "mjpeg", "live-stream", "android-broadcast", "relay"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
